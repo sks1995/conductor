@@ -61,4 +61,8 @@ abstract class AbstractSpecification extends Specification {
 
         workflowExecutor.startWorkflow(input)
     }
+
+    protected String startWorkflow(StartWorkflowInput startWorkflowInput) {
+        workflowExecutor.startWorkflow(startWorkflowInput)
+    }
 }
